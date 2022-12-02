@@ -11,6 +11,8 @@ BEGIN {
 }
 
 END {
+  # Quicker to fudge the rankings than to sort the list and change the
+  # data structure to preserve the indices
   first = 0;
   first_index = 0;
   second = 0;
