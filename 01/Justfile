@@ -1,0 +1,11 @@
+test1:
+	awk -f tool1.awk <test-data.txt
+
+solve1:
+	awk -f tool1.awk <input.txt
+
+test2:
+	awk -f tool2.awk <test-data.txt
+
+solve2:
+	awk -f tool2.awk <input.txt
